@@ -6,10 +6,10 @@ shinyUI(fluidPage(
     sidebarPanel(
       sliderInput("mu",
                   "Expected Value:",
-                  min = 0.01,
-                  max = 20,
+                  min = 1,
+                  max = 15,
                   value = 5,
-                  step = 0.01
+                  step = 0.1
                   )
     ),
     mainPanel(
